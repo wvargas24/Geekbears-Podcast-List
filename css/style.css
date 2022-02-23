@@ -1,0 +1,415 @@
+.content-episode{
+  position: relative;
+  display: inline-block;
+  width: 48%;
+  float: left;
+  background: #FFFFFF;
+  border: 1px solid #C2B2B4;
+  box-sizing: border-box;
+  margin-right: 2%;
+  padding: 30px;
+  margin-bottom:40px;
+}
+.img-episode{
+  float: left;
+  margin-right: 20px;
+}
+.cont-episode h2{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 34px;
+  color: #4F5D75;
+}
+.cont-episode p{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #404040;
+}
+.elementor-shortcode .wp-playlist{
+  border:none;
+  padding:0;
+  display:none;
+}
+.foot-episode-date{
+  float:left;
+  width:50%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #BFC0C0;
+  text-transform:capitalize;
+}
+.foot-episode-play{
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+.foot-episode-play a{
+  color: #7C90A0;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.iconpd-download{
+  font-family: 'fonticon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.iconpd-download:before {
+    content: "\f11a";
+}
+.foot-episode .foot-episode-playbar {
+  display: none;
+  position: absolute;
+  float: left;
+  width: 92%;
+  bottom: 10px;
+}
+.foot-episode-playbar .video-js .vjs-big-play-button {
+    font-size: 3em;
+    display: block;
+    position: absolute;
+    padding: 0;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.4s;
+    color: #7C90A0;
+    top: -117%;
+    left: 92%;
+    background: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+.foot-episode-playbar .video-js.vjs-16-9 {
+    padding-top: 0;
+    background:none;
+    height: 30px;
+}
+.foot-episode-playbar .video-js .vjs-control-text {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    text-transform: uppercase;
+    font-family: "Lato",sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4F5D75;
+}
+#podcast-box .load_more_wrapper {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+    float: left;
+    width: 100%;
+}
+.playbarbox{
+  width: 100%;
+  float: left;
+}
+.playbarbox .playbar-post-image-bg {
+    float: left;
+    margin-right: 30px;
+    width: 9%;
+}
+.playbarbox .content-playbar{
+  float: left;
+  width: 87%;
+}
+.playbarbox .content-playbar h2{
+  margin: 0;
+}
+.playbarbox .content-playbar h2 a{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+.playbarbox .content-playbar .playbar-date{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #C5D1EB;
+  margin: 0;
+  text-transform: capitalize;
+}
+.box-episode-playbar{
+  float: left;
+    width: 100%;
+}
+#playbar-content{
+  display:none;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 1000;
+}
+.video{
+  height: 0;
+    padding: 0;
+    line-height: 0;
+}
+.controls {
+    display: block;
+    position: relative;
+    width: 100%;
+    transition: all 0.2s;
+    float: left;
+    margin-top: -15px;
+}
+.buttons{
+  float: left;
+    width: 2%;
+    padding: 0px;
+}
+.buttons button{
+    background: none;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+  padding: 0;
+  width: 40px;
+    height: 40px;
+}
+.buttons button:before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f04b";
+    font-size:20px;
+    color:#ffffff;
+}
+.buttons button.play:before{
+  content: "\f04b";
+}
+.buttons button.pause:before{
+  content: "\f04c";
+}
+
+
+.gray-bar{
+  height: 20px;
+    width: 80%;
+    background: #E5E5E5;
+    position: relative;
+    margin-left: 20px;
+    top: 14px;
+    border-radius: 30px;
+    float: left;
+}
+.gray-juice{
+  height:35px;
+    background-color:#4F5D75;
+    border-radius: 30px;
+    position:relative;
+    top:-8px;
+    left:0;
+    width:7px;
+}
+.volumeBar{
+    width: 125px;
+    position: relative;
+    margin-left: 10px;
+    float: left;
+}
+.volume{
+  height:35px;
+    background-color:#4F5D75;
+    border-radius: 30px;
+    position:relative;
+    top:-8px;
+    left:100%;
+    width:7px;
+}
+
+.progressTime{
+  float: right;
+  width: 10%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: right;
+  color: #FFFFFF;
+  top: 7px;
+  position: relative;
+}
+.cont-left {
+    float: left;
+    width: 70%;
+}
+.cont-right{
+  float:left;
+  width:30%;
+  text-align: right;
+}
+.sound, .backward, .forward, .close {
+    background: none;
+    outline: 0;
+    border: 0;
+    color: #FFFFFF;
+}
+.close{
+  color:#404040;
+}
+.sound:focus, .sound:hover, .btnPlay:focus, .btnPlay:hover, .backward:focus, .backward:hover, .forward:focus, .forward:hover, .close:focus, .close:hover {
+    color: #fff;
+    background-color: #00000020;
+    text-decoration: none;
+}
+.sound:before{
+  font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f028";
+    font-size:20px;
+    color:#ffffff;
+}
+.sound.up:before{
+  content: "\f028";
+}
+.sound.off:before{
+  content: "\f026";
+}
+.slider, .seekslider {
+  -webkit-appearance: none;
+  width: 125px;
+  height: 20px;
+  background: #E5E5E5;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 30px;
+}
+.seekslider{
+  width: 85%;
+  margin-left: 20px;
+  top: 14px;
+  float: left;
+  margin-top: 10px;
+}
+
+.slider:hover, .seekslider:hover {
+  opacity: 0.75;
+}
+
+.slider::-webkit-slider-thumb, .seekslider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #4CAF50;
+  cursor: pointer;
+  height: 35px;
+  background-color: #4F5D75;
+  border-radius: 30px;
+  position: relative;
+  top: 0px;
+  width: 7px;
+}
+
+.slider::-moz-range-thumb, .seekslider::-moz-range-thumb {
+  width: 7px;
+  height: 35px;
+  background: #4F5D75;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .content-episode{
+    width: 100%;
+    margin-right: 0;
+  }
+  .playbarbox {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+  }
+  .playbarbox .playbar-post-image-bg {
+    float: left;
+    margin-right: 0;
+    width: 100%;
+    text-align: left;
+  }
+  .playbarbox .content-playbar {
+    float: left;
+    width: 100%;
+  }
+  .cont-left {
+    float: left;
+    width: 100%;
+  }
+  .cont-right {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 64%;
+  }
+  .box-episode-playbar {
+    float: left;
+    width: 100%;
+  }
+  .buttons {
+    float: left;
+    width: 9%;
+    padding: 0px;
+  }
+  .seekslider {
+    width: 54%;
+    margin-left: 20px;
+    top: 14px;
+    float: left;
+    margin-top: 10px;
+  }
+  .progressTime {
+    float: right;
+    width: 31%;
+    top: 7px;
+    position: relative;
+    right: 0;
+  }
+  .sound, .backward, .forward, .close {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .buttons {
+    float: left;
+    width: 9%;
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .playbarbox {
+    padding: 0 15px;
+  }
+  .cont-left {
+    width: 60%;
+  }
+  .cont-right {
+    width: 40%;
+  }
+  .seekslider {
+    width: 80%;
+  }
+  .progressTime {
+    width: 15%;
+  }
+}
