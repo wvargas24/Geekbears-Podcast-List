@@ -1,4 +1,4 @@
-# Geekbears Podcast List
+# Custom Plugin WP Podcast List
 Custom plugin to create a new post type for Podcast List
 
 ## Features 
